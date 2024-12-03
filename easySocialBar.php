@@ -16,7 +16,7 @@ register_plugin(
 	'easySocialSettings'  //main function (administration)
 );
 
-
+add_action('theme-header','easySocialBar'); 
 
 # add a link in the admin tab 'theme'
 add_action('plugins-sidebar', 'createSideMenu', array($thisfile, 'Easy Social Bar Settings'));
