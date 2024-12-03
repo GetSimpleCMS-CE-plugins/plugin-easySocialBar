@@ -190,6 +190,7 @@ display:flex;
 flex-wrap:wrap;
 flex-direction:column;
 gap:5px;
+z-index:99;
 }
 
 .easysocialbar a{
